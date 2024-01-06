@@ -1,8 +1,7 @@
 #------------ Create classes, attributes, methods etc
-# Connect to database
+#------------ Connect to database
 # Implement functionality
 # Implement GUI
-# Database path: "C:\\Users\\Developer\\Desktop\\TaskManagementApp\\Database\\TaskManagementDB\\TaskManagementDB"
 
 #Imports
 import sqlite3
@@ -44,3 +43,6 @@ def show_tables(db_connection):
 
 # Assuming db_connection is your SQLite database connection
 show_tables(db_connection)
+
+
+

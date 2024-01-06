@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cc4f522-9c9a-42f9-9f3e-132e142c10fe" name="Changes" comment="TaskManagementApp v1&#10;Created classes, DB Connectio setup" />
+    <list default="true" id="8cc4f522-9c9a-42f9-9f3e-132e142c10fe" name="Changes" comment="TaskManagementApp v1&#10;Created classes, DB Connectio setup">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Person.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Person.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Task.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Task.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704557109235</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TaskManagementApp v1&#10;Created classes, DB Connectio setup">
+      <option name="closed" value="true" />
+      <created>1704557409784</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704557409784</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
