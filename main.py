@@ -1,5 +1,5 @@
-#------------ Create classes, attributes, methods etc
-#------------ Connect to database
+# ------------ Create classes, attributes, methods etc
+# ------------ Connect to database
 # Implement functionality
 # Implement GUI
 
@@ -11,4 +11,3 @@ from database_handler import DatabaseHandler
 db_handler = DatabaseHandler()
 
 db_handler.show_tables()
-
