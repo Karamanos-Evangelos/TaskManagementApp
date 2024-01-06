@@ -78,6 +78,4 @@ class Task:
         # Assuming 'unique_ID' is the primary key
         query = "UPDATE tasks SET name = ?, description = ?, status = ?, priority = ?, assignee = ?, project = ?, date_created = ?, date_started = ?, date_closed = ?, time_tracked = ?, dependencies = ?, completion_percentage = ? WHERE unique_ID = ?;"
         values = ( self.name, self.description, self.status, self.priority, self.assignee, self.project, self.date_created, self.date_started, self.date_closed, self.time_tracked, self.dependencies, self.completion_percentage, self.unique_ID)
-
-        with self.db_connection:
-            self.cursor.execute(query, values)
+        self.db_handler.execute_query(query, values)

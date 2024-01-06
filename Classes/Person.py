@@ -1,7 +1,10 @@
 ## Class that represents a person
 
+from database_handler import DatabaseHandler
+
 class Person:
     def __init__(self, unique_ID, name, company, role):
+        self.db_handler = DatabaseHandler()
         self.unique_ID = unique_ID
         self.name = name
         self.company = company
@@ -29,7 +32,5 @@ class Person:
         # Assuming 'unique_ID' is the primary key
         query = "UPDATE person SET name = ?, company = ?, role = ? WHERE unique_ID = ?;"
         values = (self.name, self.company, self.role, self.unique_ID)
-
-        with self.db_connection:
-            self.cursor.execute(query, values)
+        self.db_handler.execute_query(query, values)
 

@@ -1,7 +1,10 @@
 ## Class that represents a project
 
+from database_handler import DatabaseHandler
+
 class Project:
     def __init__(self, unique_ID, name, description):
+        self.db_handler = DatabaseHandler()
         self.unique_ID = unique_ID
         self.name = name
         self.description = description
@@ -24,6 +27,4 @@ class Project:
         # Assuming 'unique_ID' is the primary key
         query = "UPDATE project SET name = ?, description = ? WHERE unique_ID = ?;"
         values = (self.name, self.description, self.unique_ID)
-
-        with self.db_connection:
-            self.cursor.execute(query, values)
+        self.db_handler.execute_query(query, values)

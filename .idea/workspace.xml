@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cc4f522-9c9a-42f9-9f3e-132e142c10fe" name="Changes" comment="TaskManagementApp v3&#10;save before refactoring">
-      <change afterPath="$PROJECT_DIR$/database_handler.py" afterDir="false" />
+    <list default="true" id="8cc4f522-9c9a-42f9-9f3e-132e142c10fe" name="Changes" comment="TaskManagementApp v4&#10;Reformating with a new database_handler.py file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Person.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Person.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Project.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classes/Task.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704559954521</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="TaskManagementApp v4&#10;Reformating with a new database_handler.py file">
+      <option name="closed" value="true" />
+      <created>1704561093194</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704561093194</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +179,7 @@
     <MESSAGE value="TaskManagementApp v1&#10;Created classes, DB Connectio setup" />
     <MESSAGE value="TaskManagementApp v2&#10;save button functions" />
     <MESSAGE value="TaskManagementApp v3&#10;save before refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="TaskManagementApp v3&#10;save before refactoring" />
+    <MESSAGE value="TaskManagementApp v4&#10;Reformating with a new database_handler.py file" />
+    <option name="LAST_COMMIT_MESSAGE" value="TaskManagementApp v4&#10;Reformating with a new database_handler.py file" />
   </component>
 </project>
