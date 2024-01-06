@@ -1,11 +1,11 @@
 ## Class that represents a person
 
 class Person:
-    def __init__(self, UniqueID, Name, Company, Role):
-        self.unique_ID = UniqueID
-        self.name = Name
-        self.company = Company
-        self.role = Role
+    def __init__(self, unique_ID, name, company, role):
+        self.unique_ID = unique_ID
+        self.name = name
+        self.company = company
+        self.role = role
 
     def get_person(self):
         return {
@@ -27,7 +27,7 @@ class Person:
     # Function to be used upon the click of the SAVE button on a Person
     def save_button_update_person(self):
         # Assuming 'unique_ID' is the primary key
-        query = "UPDATE people SET name = ?, company = ?, role = ? WHERE unique_ID = ?;"
+        query = "UPDATE person SET name = ?, company = ?, role = ? WHERE unique_ID = ?;"
         values = (self.name, self.company, self.role, self.unique_ID)
 
         with self.db_connection:

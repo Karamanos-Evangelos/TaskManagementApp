@@ -1,10 +1,10 @@
 ## Class that represents a project
 
 class Project:
-    def __init__(self, UniqueID, Name, Description):
-        self.unique_ID = UniqueID
-        self.name = Name
-        self.description = Description
+    def __init__(self, unique_ID, name, description):
+        self.unique_ID = unique_ID
+        self.name = name
+        self.description = description
 
     def get_project(self):
         return {
