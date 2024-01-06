@@ -1,8 +1,11 @@
 ## Class that represents a task
 
+from database_handler import DatabaseHandler
+
 class Task:
     def __init__(self,unique_ID, name, description, status, priority, assignee, project, date_created,
                  date_started, date_closed, time_tracked, dependencies, completion_percentage):
+        self.db_handler = DatabaseHandler()
         self.unique_ID = unique_ID
         self.name = name
         self.description = description
@@ -16,6 +19,7 @@ class Task:
         self.time_tracked = time_tracked
         self.dependencies = dependencies
         self.completion_percentage = completion_percentage
+
 
     def get_task(self):
         return {
