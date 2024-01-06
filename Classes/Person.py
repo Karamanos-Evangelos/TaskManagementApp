@@ -1,10 +1,8 @@
 ## Class that represents a person
 
-from database_handler import DatabaseHandler
-
 class Person:
-    def __init__(self, unique_ID, name, company, role):
-        self.db_handler = DatabaseHandler()
+    def __init__(self, db_handler, unique_ID, name, company, role):
+        self.db_handler = db_handler
         self.unique_ID = unique_ID
         self.name = name
         self.company = company

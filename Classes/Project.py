@@ -3,8 +3,8 @@
 from database_handler import DatabaseHandler
 
 class Project:
-    def __init__(self, unique_ID, name, description):
-        self.db_handler = DatabaseHandler()
+    def __init__(self, db_handler,unique_ID, name, description):
+        self.db_handler = db_handler
         self.unique_ID = unique_ID
         self.name = name
         self.description = description
