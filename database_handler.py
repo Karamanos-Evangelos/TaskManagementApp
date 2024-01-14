@@ -26,9 +26,10 @@ class DatabaseHandler:
                 if values:
                     cursor.execute(query, values)
                 else:
-                    cursor.execute(query)
+                    cursor.executescript(query)
+
         except sqlite3.Error as e:
-            print(f"Error executing query: {e}")
+            print(f"Error executing statement: {e}")
         finally:
             self.release_connection(connection)
 
